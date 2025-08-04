@@ -1,7 +1,6 @@
-// Initialize AOS animations
 AOS.init({
-  duration: 900,
+  duration: 1000,
   easing: 'ease-in-out',
-  once: true,
-  mirror: false
+  once: false,         // change this to false so it replays
+  mirror: true         // allows replay on scroll up
 });
