@@ -1,59 +1,98 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Paperman Ultra | All Subjects. One Price.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-<script src="script.js" defer></script>
-  <script>AOS.init();</script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
-  <header class="hero" data-aos="fade-down">
-    <img src="./20250803_141029.jpg" class="logo" alt="Logo" />
-    <h1 style="color: white;">Welcome to Paperman Resources</h1>
-    <p>All subjects. One price. Instant access to every study resource your child needs to succeed.</p>
-  </header>  <section class="steps">
+
+  <header class="header" data-aos="fade-down">
+    <div class="container logo-title">
+      <img src="20250803_141029.jpg" alt="Paperman Logo" class="logo" />
+      <h1 class="site-title">Paperman Ultra</h1>
+    </div>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <div class="container hero-content">
+      <h2>All subjects. One price.</h2>
+      <p>Imagine your child having instant access to hundreds of premium textbooks, study guides, and exclusive past papers across ALL their subjects. No more hunting for resources, no more paying per subject, no more stress about missing materials.</p>
+      <a href="#contact" class="btn primary-btn">Get Notified</a>
+    </div>
+  </section>
+
+  <section id="steps" class="steps container" data-aos="fade-up">
+    <h3>How your child can get A's with Paperman in just 4 Steps</h3>
     <div class="step" data-aos="fade-up" data-aos-delay="100">
-      <h2>Step 1: Scan Their Notes</h2>
-      <p>Take a photo — Paperman converts messy notes into clean, digital versions instantly.</p>
+      <h4>Step 1: Scan their notes into our app</h4>
+      <p>Your child snaps a photo of their messy school notes. In 10 seconds, they get gorgeous digital notes they'll actually want to study—with in-app search and offline access, even during load-shedding.</p>
     </div>
     <div class="step" data-aos="fade-up" data-aos-delay="200">
-      <h2>Step 2: Boost With AI</h2>
-      <p>Our AI explains difficult parts, adds memory tips, and examples for better understanding.</p>
+      <h4>Step 2: Boost their own notes with AI</h4>
+      <p>When your child doesn't understand something in their notes, they tap "boost"—our AI then transforms the notes into gold, adding memory tricks, examples, and exam-aligned explanations.</p>
     </div>
     <div class="step" data-aos="fade-up" data-aos-delay="300">
-      <h2>Step 3: Library Access</h2>
-      <p>Access every subject, textbook, guide, and past paper. Updated every month — R100,000+ in value.</p>
+      <h4>Step 3: Unlimited library access</h4>
+      <p>Forget buying expensive textbooks. Paperman Library gives access to every subject and guide—all content worth over R100,000, just for R400/month.</p>
     </div>
     <div class="step" data-aos="fade-up" data-aos-delay="400">
-      <h2>Step 4: Past Paper Simulations</h2>
-      <p>Practice with real-feel questions and learn how to answer like top students.</p>
+      <h4>Step 4: Past paper simulations</h4>
+      <p>Practice with real-feel exam questions made from years of actual papers. Each answer walks through the solution step-by-step.</p>
     </div>
-  </section>  <section class="pricing-section" data-aos="fade-up">
-    <h2>Simple, Transparent Pricing</h2>
-    <div class="pricing">
+    <div class="bonus" data-aos="fade-up" data-aos-delay="500">
+      <h4>Bonus Step: Exclusive Ultra WhatsApp Group</h4>
+      <p>Ultra members join a private WhatsApp group with like-minded learners and 24/7 access to curated teachers.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services container" data-aos="fade-up">
+    <h3>Simple, transparent pricing</h3>
+    <div class="pricing-cards">
       <div class="card" data-aos="zoom-in" data-aos-delay="100">
         <h4>Lite</h4>
-        <p>R100 / month</p>
-        <p>Note scanner, AI boost, limited downloads</p>
-        <a href="#" class="btn">Get Started</a>
+        <p>R100 / mo</p>
+        <ul>
+          <li>35 AI Boosts</li>
+          <li>75 Scans</li>
+          <li>1 Library Download</li>
+          <li>Monthly Backups</li>
+        </ul>
+        <a href="#contact" class="btn secondary-btn">Get Notified</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="200">
         <h4>Pro</h4>
-        <p>R250 / month</p>
-        <p>More downloads, access to chat support</p>
-        <a href="#" class="btn">Get Started</a>
+        <p>R250 / mo</p>
+        <ul>
+          <li>150 AI Boosts</li>
+          <li>75 Scans</li>
+          <li>3 Downloads</li>
+          <li>Weekly Backups</li>
+        </ul>
+        <a href="#contact" class="btn secondary-btn">Get Notified</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="300">
         <h4>Ultra</h4>
-        <p>R400 / month</p>
-        <p>Unlimited access, VIP chat, all features</p>
-        <a href="#" class="btn">Get Started</a>
+        <p>R400 / mo</p>
+        <ul>
+          <li>Unlimited Library Access</li>
+          <li>325 AI Boosts</li>
+          <li>150 Scans</li>
+          <li>Daily Backups</li>
+          <li>24/7 WhatsApp Support</li>
+        </ul>
+        <a href="#contact" class="btn secondary-btn">Get Notified</a>
       </div>
     </div>
-  </section>  <footer>
-    &copy; 2025 Paperman Ultra. All rights reserved.
+  </section>
+
+  <footer id="contact" class="footer" data-aos="fade-up">
+    <p>SOMETHING BIG IS COMING ©</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
